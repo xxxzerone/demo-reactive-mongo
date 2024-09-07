@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: reactive-mongo
+  output:
+    ansi:
+      enabled: always
+
+  data:
+    mongodb:
+      username: scott
+      password: scott
+      host: 172.17.0.3
+      port: 27017
+      database: test
+      authentication-database: admin
